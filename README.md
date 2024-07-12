@@ -34,5 +34,5 @@ spicetify apply
 
 ## How to use
 
-- press keys `0-9` to jump to `0%-90%` of the song duration
+- press keys `0-9` to jump to 0%-90% of the song duration
 - press `left arrow` or `right arrow` to jump 5 seconds backward or forward
