@@ -2,7 +2,7 @@
   {
     "name": "Seek Song Keybinds",
     "description": "Enables YouTube-like keybinds to jump in the song that is currently playing.",
-    "preview": "keybinds.png",
+    "preview": "keybinds-new.png",
     "main": "seekSongKeybinds.js",
     "readme": "README.md",
     "authors": [
