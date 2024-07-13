@@ -2,7 +2,11 @@
 
 A **[Spicetify](https://github.com/spicetify/cli)** extension for Spotify that enables YouTube-like keybinds to jump in the song that is currently playing.
 
-## How to install
+## Install through Marketplace
+
+### Search `Seek Song Keybinds` in the **[Spicetify Marketplace](https://github.com/spicetify/marketplace)**
+
+## Install manually
 
 ### 1. Copy `seekSongKeybinds.js` to the Spicetify extensions folder of your OS
 
