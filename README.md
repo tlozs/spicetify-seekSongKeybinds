@@ -4,7 +4,7 @@ A **[Spicetify](https://github.com/spicetify/cli)** extension for Spotify that e
 
 ## How to install
 
-1. Copy `seekSongKeybinds.js` to the Spicetify extensions folder of your OS
+### 1. Copy `seekSongKeybinds.js` to the Spicetify extensions folder of your OS
 
 
 | **Platform**   | **Path**                                                                             |
@@ -14,14 +14,14 @@ A **[Spicetify](https://github.com/spicetify/cli)** extension for Spotify that e
 | **MacOS**      | `~/.config/spicetify/Extensions` or `~/.spicetify/Extensions`                        |
 
 
-2. After putting the extension file into the correct folder, run the following command to install the extension:
+### 2. After putting the extension file into the correct folder, run the following command to install the extension:
 
 ```sh
 spicetify config extensions seekSongKeybinds.js
 ```
 
 
-Or manually edit the `config-xpui.ini` file. Add `seekSongKeybinds.js` to the extensions key. If there are other files listed there already, use the | character as a separator.
+### Or manually edit the `config-xpui.ini` file. Add `seekSongKeybinds.js` to the extensions key. If there are other files listed there already, use the | character as a separator.
 Example:
 
 ```ini
@@ -31,7 +31,7 @@ extensions = someExtension.js|someOtherExtension.js|seekSongKeybinds.js
 ```
 
 
-3. Then apply the changes:
+### 3. Then apply the changes:
 
 ```sh
 spicetify apply
