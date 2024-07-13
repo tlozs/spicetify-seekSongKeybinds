@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Seek Song Keybinds",
+    "description": "Enables YouTube-like keybinds to jump in the song that is currently playing.",
+    "preview": "keybinds.png",
+    "main": "seekSongKeybinds.js",
+    "readme": "README.md",
+    "authors": [
+        { "name": "Tlozs", "url": "https://github.com/tlozs" }
+    ],
+    "tags": ["keybind", "seek", "seeksong", "jump"]
+  }
+]
