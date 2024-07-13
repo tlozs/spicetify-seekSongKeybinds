@@ -1,9 +1,11 @@
-# spicetify-seekSongKeybinds
+Seek Song Keybinds
+
 A **[Spicetify](https://github.com/spicetify/cli)** extension for Spotify that enables YouTube-like keybinds to jump in the song that is currently playing.
 
 ## How to install
 
 1. Copy `seekSongKeybinds.js` to the Spicetify extensions folder of your OS
+
 
 | **Platform**   | **Path**                                                                             |
 |----------------|--------------------------------------------------------------------------------------|
@@ -11,13 +13,15 @@ A **[Spicetify](https://github.com/spicetify/cli)** extension for Spotify that e
 | **Linux**      | `~/.config/spicetify/Extensions` or `$XDG_CONFIG_HOME/.config/spicetify/Extensions/` |
 | **MacOS**      | `~/.config/spicetify/Extensions` or `~/.spicetify/Extensions`                        |
 
-After putting the extension file into the correct folder, run the following command to install the extension:
+
+2.1 After putting the extension file into the correct folder, run the following command to install the extension:
 
 ```sh
 spicetify config extensions seekSongKeybinds.js
 ```
 
-Or manually edit the `config-xpui.ini` file. Add `seekSongKeybinds.js` to the extensions key. If there are other files listed there already, use the | character as a separator.
+
+2.2 Or manually edit the `config-xpui.ini` file. Add `seekSongKeybinds.js` to the extensions key. If there are other files listed there already, use the | character as a separator.
 Example:
 
 ```ini
@@ -26,7 +30,8 @@ Example:
 extensions = someExtension.js|someOtherExtension.js|seekSongKeybinds.js
 ```
 
-Then apply the changes:
+
+3. Then apply the changes:
 
 ```sh
 spicetify apply
